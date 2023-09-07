@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contactos</title>
+</head>
+<body>
+    <h1>Lista de Contactos</h1>
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="telefono" placeholder="Teléfono">
+    <button onclick="agregarContacto()">Agregar Contacto</button>
+    <input type="text" id="busqueda" placeholder="Buscar por nombre o teléfono" oninput="buscarContactos()">
+    <ul id="listaContactos"></ul>
+
+    <script src="./index.js"></script>
+</body>
+</html>
